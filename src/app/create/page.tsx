@@ -20,7 +20,7 @@ export default function CreatePostPage() {
           <LanguageSwitcher />
         </div>
       </div>
-      <CreatePostForm />
+      {/* <CreatePostForm /> */}
     </main>
   )
 }
