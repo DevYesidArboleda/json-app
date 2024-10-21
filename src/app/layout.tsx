@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="h-screen w-screen">
+      <body className={inter.className}>
         <LanguageProvider>
           {children}
           <Toaster />
